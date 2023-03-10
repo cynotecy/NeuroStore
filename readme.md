@@ -22,7 +22,7 @@ In brain-computer interface applications, it is necessary to collect information
 
 
 ## Installation
-
+### NeuroStore installation
 Before installing NeuroStore, you need to install Docker. You can refer to the official documentation of Docker for specific steps.
 
 After installing Docker , you can install the NeuroStore project using the following command:
@@ -69,6 +69,12 @@ After installing Docker , you can install the NeuroStore project using the follo
    ```
 After NeuroStore is started, you can access the NeuroStore web interface by visiting http://localhost:8083.
 
+### API Insatllation 
+Before installing API, you need to install Python 3.Then using the following command:
+
+```sh
+   pip install PlatformAPI-1.0.0-py3-none-any.whl
+ ```  
 ## Contribution guide
 
 If you would like to contribute code or feedback questions to NeuroStore, you can do so in the following ways:
