@@ -1,16 +1,13 @@
-# This is a sample Python script.
+from setuptools import setup, find_packages
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+setup(
+    name='PlatformAPI',
+    version='1.0.0',
+    packages=find_packages(),
+    author='CY',
+    author_email='JelenaBeatrice387@outlook.com',
+    description='API For BCI Platform，of couse，is also used to NeuroStore。Because NeuroStore is a part of BCI Platform.',
+    classifiers=[
+        'Programming Language :: Python :: 3'
+    ],
+)
